@@ -12,5 +12,6 @@ Tech Stack
 * IntelliJ IDEA 2016.1.4
 * Gradle 3.5.1
 
-To see a hello world that generates a WAR file, please check TODO
+To see a hello world that generates a WAR file, please check https://github.com/topera/gradle-rest-server-spring-war
+
 To take a look in other tutorials, please see https://github.com/topera/hello-world-index
