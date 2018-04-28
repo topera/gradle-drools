@@ -1,7 +1,10 @@
 // tested with gradle 4.7
 plugins {
     id 'java'
+    id 'application' // (optional) allows execution of main class directly from gradle
 }
+
+mainClassName = "com.topera.drools.Main" // (optional) allows execution of main class directly from gradle
 
 repositories {
     jcenter()
