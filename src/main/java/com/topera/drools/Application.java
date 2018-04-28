@@ -8,10 +8,27 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Created by topera on 28/04/18.
  */
-@SpringBootApplication
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+
+    }
+
+    public User run() {
+        User user = new User("John");
+        System.out.println("Name before session: " + user.get);
+        runDrools(user);
+        return user;
+    }
+
+    private void runDrools(User user) {
+        StatelessKieSession kieSession = createKieSession();
+        kieSession.execute(user);
+    }
+
+    private StatelessKieSession createKieSession() {
+        KieServices kieServices = KieServices.Factory.get();
+        KieContainer kieContainer = kieServices.getKieClasspathContainer();
+        return kieContainer.newStatelessKieSession();
     }
 }

@@ -17,21 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RunController {
 
     @RequestMapping("/run")
-    public User run() {
-        User user = new User("John");
-        runDrools(user);
-        return user;
-    }
 
-    private void runDrools(User user) {
-        StatelessKieSession kieSession = createKieSession();
-        kieSession.execute(user);
-    }
-
-    private StatelessKieSession createKieSession() {
-        KieServices kieServices = KieServices.Factory.get();
-        KieContainer kieContainer = kieServices.getKieClasspathContainer();
-        return kieContainer.newStatelessKieSession();
-    }
 
 }

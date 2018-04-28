@@ -1,16 +1,14 @@
-# Topera's Hello World #013
-## SpringBoot + Drools
-This hello world is a SpringBoot app that runs Drools (rules engine)
+# Topera's Hello World #014
+## Drools 7 - Hello World
+The sortest way to run Drools 7 (I think)!
 
 How to test
-* $ cd gradle-drools-spring
-* $ gradle bootRun
-* Access http://localhost:8080/run
+* $ cd gradle-drools
+* $ gradle run
 
-The initial name of the user is "John". After Drools execution is "Mary", as you can see in the JSON: {"name":"Mary"}
+The initial name of the user is "John". After Drools execution is "Mary", as you can see in the output.
 
 Tech Stack
-* Spring Boot 2.0.1.RELEASE
 * IntelliJ IDEA 2018.1
 * Gradle 4.7
 * Drools 7.7.0
