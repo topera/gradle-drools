@@ -1,6 +1,6 @@
 package com.topera.drools.rules
 
-import com.topera.drools.model.User
+import com.topera.drools.User
 
 rule "Set name of all users as Mary"
 when

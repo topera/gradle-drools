@@ -1,4 +1,4 @@
-package com.topera.drools.model;
+package com.topera.drools;
 
 /**
  * Created by topera on 28/04/18.
@@ -11,12 +11,11 @@ public class User {
         this.name = name;
     }
 
-    @SuppressWarnings("unused")
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    @SuppressWarnings("unused")
+    @SuppressWarnings("unused") // used by drools
     public void setName(String name) {
         this.name = name;
     }
