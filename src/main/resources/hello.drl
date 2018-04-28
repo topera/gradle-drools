@@ -1,0 +1,10 @@
+package com.topera.drools.rules
+
+import com.topera.drools.model.User
+
+rule "Set name of all users as Mary"
+when
+    user: User()
+then
+    user.setName("Mary");
+end

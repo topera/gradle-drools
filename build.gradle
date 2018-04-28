@@ -11,4 +11,5 @@ repositories {
 dependencies {
     // allows usage of annotations like @RestController and much more!
     compile("org.springframework.boot:spring-boot-starter-web:2.0.1.RELEASE")
+    compile("org.drools:drools-compiler:7.7.0.Final")
 }

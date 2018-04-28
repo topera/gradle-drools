@@ -1,10 +1,12 @@
-package com.topera.hello;
+package com.topera.drools;
+
+import com.topera.drools.model.User;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by topera on 30/07/17.
+ * Created by topera on 28/04/18.
  */
 @SpringBootApplication
 public class Application {
