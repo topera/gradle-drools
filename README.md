@@ -6,7 +6,7 @@ This hello world is a SpringBoot app that runs Drools (rules engine)
 How to test
 * $ cd gradle-drools-spring
 * $ gradle bootRun
-TODO
+* Access http://localhost:8080/test
 
 Tech Stack
 * Spring Boot 2.0.1.RELEASE
