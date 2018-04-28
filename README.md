@@ -5,7 +5,7 @@ This hello world is a SpringBoot app that runs Drools (rules engine)
 How to test
 * $ cd gradle-drools-spring
 * $ gradle bootRun
-* Access http://localhost:8080/test
+* Access http://localhost:8080/run
 
 The initial name of the user is "John". After Drools execution is "Mary", as you can see in the JSON: {"name":"Mary"}
 
