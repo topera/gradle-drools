@@ -1,6 +1,6 @@
 # Topera's Hello World #014
 ## Drools 7 - Hello World
-The sortest way to run Drools 7 (I think)!
+The shortest way to run Drools 7 (I think)!
 
 How to test
 * $ cd gradle-drools
